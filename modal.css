@@ -309,3 +309,18 @@ button.close {
 .cors-content > button[type="button"]:focus {
     outline: 0;
 }
+
+/*Animation code*/
+
+#loading {
+		-webkit-animation: rotation 6s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg);
+		}
+		to {
+				-webkit-transform: rotateY(-360deg);
+		}
+}
